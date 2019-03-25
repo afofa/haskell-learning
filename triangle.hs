@@ -1,0 +1,1 @@
+integer_right_triangle max_val = [(a,b,c) | c<-[1..max_val], b<-[1..c], a<-[1..b], a^2 + b^2 == c^2]
